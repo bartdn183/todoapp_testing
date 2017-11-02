@@ -8,7 +8,7 @@ FactoryBot.define do
 
   factory :email, class: Task do
     association :user
-    name "complete homework"
+    name "reply to Zack's email"
     due_date { DateTime.now }
     priority 1
   end
